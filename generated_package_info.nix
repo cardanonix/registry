@@ -6,6 +6,12 @@
         repo = "https://github.com/newlandsvalley/purescript-abc-parser.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
+      };
   };
   ace =
   {
@@ -13,6 +19,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-ace.git";
         rev = "v9.1.0";
+      };
+    info =
+      {
+        version = "9.1.0";
+        dependencies = [
+        ];
       };
   };
   aff =
@@ -22,6 +34,12 @@
         repo = "https://github.com/purescript-contrib/purescript-aff.git";
         rev = "v7.1.0";
       };
+    info =
+      {
+        version = "7.1.0";
+        dependencies = [
+        ];
+      };
   };
   aff-bus =
   {
@@ -29,6 +47,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-aff-bus.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   aff-coroutines =
@@ -38,6 +62,12 @@
         repo = "https://github.com/purescript-contrib/purescript-aff-coroutines.git";
         rev = "v9.0.0";
       };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
+      };
   };
   aff-promise =
   {
@@ -45,6 +75,12 @@
       {
         repo = "https://github.com/nwolverson/purescript-aff-promise.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   aff-retry =
@@ -54,6 +90,12 @@
         repo = "https://github.com/Unisay/purescript-aff-retry.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
+      };
   };
   affjax =
   {
@@ -61,6 +103,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-affjax.git";
         rev = "v13.0.0";
+      };
+    info =
+      {
+        version = "13.0.0";
+        dependencies = [
+        ];
       };
   };
   affjax-node =
@@ -70,6 +118,25 @@
         repo = "https://github.com/purescript-contrib/purescript-affjax-node.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+          "aff"
+          "affjax"
+          "argonaut-core"
+          "datetime"
+          "effect"
+          "either"
+          "exceptions"
+          "foreign-object"
+          "http-methods"
+          "maybe"
+          "transformers"
+          "console"
+          "prelude"
+        ];
+      };
   };
   affjax-web =
   {
@@ -77,6 +144,17 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-affjax-web.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+          "aff"
+          "affjax"
+          "maybe"
+          "either"
+          "prelude"
+        ];
       };
   };
   ansi =
@@ -86,6 +164,12 @@
         repo = "https://github.com/hdgarrood/purescript-ansi.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   argonaut =
   {
@@ -93,6 +177,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-argonaut.git";
         rev = "v9.0.0";
+      };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
       };
   };
   argonaut-aeson-generic =
@@ -102,6 +192,12 @@
         repo = "https://github.com/coot/purescript-argonaut-aeson-generic.git";
         rev = "v0.4.1";
       };
+    info =
+      {
+        version = "0.4.1";
+        dependencies = [
+        ];
+      };
   };
   argonaut-codecs =
   {
@@ -109,6 +205,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-argonaut-codecs.git";
         rev = "v9.1.0";
+      };
+    info =
+      {
+        version = "9.1.0";
+        dependencies = [
+        ];
       };
   };
   argonaut-core =
@@ -118,6 +220,12 @@
         repo = "https://github.com/purescript-contrib/purescript-argonaut-core.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   argonaut-generic =
   {
@@ -125,6 +233,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-argonaut-generic.git";
         rev = "v8.0.0";
+      };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
       };
   };
   argonaut-traversals =
@@ -134,6 +248,12 @@
         repo = "https://github.com/purescript-contrib/purescript-argonaut-traversals.git";
         rev = "v10.0.0";
       };
+    info =
+      {
+        version = "10.0.0";
+        dependencies = [
+        ];
+      };
   };
   argparse-basic =
   {
@@ -141,6 +261,12 @@
       {
         repo = "https://github.com/natefaubion/purescript-argparse-basic.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
       };
   };
   array-builder =
@@ -150,6 +276,12 @@
         repo = "https://github.com/paluh/purescript-array-builder.git";
         rev = "v0.1.2";
       };
+    info =
+      {
+        version = "0.1.2";
+        dependencies = [
+        ];
+      };
   };
   arraybuffer =
   {
@@ -157,6 +289,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-arraybuffer.git";
         rev = "v13.2.0";
+      };
+    info =
+      {
+        version = "13.2.0";
+        dependencies = [
+        ];
       };
   };
   arraybuffer-builder =
@@ -166,6 +304,12 @@
         repo = "https://github.com/jamesdbrock/purescript-arraybuffer-builder.git";
         rev = "v3.1.0";
       };
+    info =
+      {
+        version = "3.1.0";
+        dependencies = [
+        ];
+      };
   };
   arraybuffer-types =
   {
@@ -173,6 +317,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-arraybuffer-types.git";
         rev = "v3.0.2";
+      };
+    info =
+      {
+        version = "3.0.2";
+        dependencies = [
+        ];
       };
   };
   arrays =
@@ -182,6 +332,12 @@
         repo = "https://github.com/purescript/purescript-arrays.git";
         rev = "v7.2.0";
       };
+    info =
+      {
+        version = "7.2.0";
+        dependencies = [
+        ];
+      };
   };
   arrays-zipper =
   {
@@ -189,6 +345,12 @@
       {
         repo = "https://github.com/JordanMartinez/purescript-arrays-zipper.git";
         rev = "v2.0.1";
+      };
+    info =
+      {
+        version = "2.0.1";
+        dependencies = [
+        ];
       };
   };
   ask =
@@ -198,21 +360,40 @@
         repo = "https://github.com/Mateiadrielrafael/purescript-ask.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+          "unsafe-coerce"
+        ];
+      };
   };
-  # assert =
-  # {
-  #   src.git =
-  #     {
-  #       repo = "https://github.com/purescript/purescript-assert.git";
-  #       rev = "v6.0.0";
-  #     };
-  # };
+  assert =
+  {
+    src.git =
+      {
+        repo = "https://github.com/purescript/purescript-assert.git";
+        rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
+  };
   avar =
   {
     src.git =
       {
         repo = "https://github.com/purescript-contrib/purescript-avar.git";
         rev = "v5.0.0";
+      };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
       };
   };
   b64 =
@@ -222,6 +403,12 @@
         repo = "https://github.com/menelaos/purescript-b64.git";
         rev = "v0.0.8";
       };
+    info =
+      {
+        version = "0.0.8";
+        dependencies = [
+        ];
+      };
   };
   barbies =
   {
@@ -229,6 +416,12 @@
       {
         repo = "https://github.com/the-dr-lazy/purescript-barbies.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   barlow-lens =
@@ -238,6 +431,12 @@
         repo = "https://github.com/sigma-andex/purescript-barlow-lens.git";
         rev = "v0.9.0";
       };
+    info =
+      {
+        version = "0.9.0";
+        dependencies = [
+        ];
+      };
   };
   basic-auth =
   {
@@ -245,6 +444,12 @@
       {
         repo = "https://github.com/oreshinya/purescript-basic-auth.git";
         rev = "v3.0.1";
+      };
+    info =
+      {
+        version = "3.0.1";
+        dependencies = [
+        ];
       };
   };
   bifunctors =
@@ -254,6 +459,12 @@
         repo = "https://github.com/purescript/purescript-bifunctors.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   bigints =
   {
@@ -261,6 +472,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-bigints.git";
         rev = "v7.0.1";
+      };
+    info =
+      {
+        version = "7.0.1";
+        dependencies = [
+        ];
       };
   };
   bolson =
@@ -270,6 +487,12 @@
         repo = "https://github.com/mikesol/purescript-bolson.git";
         rev = "v0.3.1";
       };
+    info =
+      {
+        version = "0.3.1";
+        dependencies = [
+        ];
+      };
   };
   bower-json =
   {
@@ -277,6 +500,12 @@
       {
         repo = "https://github.com/klntsky/purescript-bower-json.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   bucketchain =
@@ -286,6 +515,12 @@
         repo = "https://github.com/Bucketchain/purescript-bucketchain.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   bucketchain-basic-auth =
   {
@@ -293,6 +528,12 @@
       {
         repo = "https://github.com/Bucketchain/purescript-bucketchain-basic-auth.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   bucketchain-conditional =
@@ -302,6 +543,12 @@
         repo = "https://github.com/Bucketchain/purescript-bucketchain-conditional.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   bucketchain-cors =
   {
@@ -309,6 +556,12 @@
       {
         repo = "https://github.com/Bucketchain/purescript-bucketchain-cors.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   bucketchain-csrf =
@@ -318,6 +571,12 @@
         repo = "https://github.com/Bucketchain/purescript-bucketchain-csrf.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   bucketchain-header-utils =
   {
@@ -325,6 +584,12 @@
       {
         repo = "https://github.com/Bucketchain/purescript-bucketchain-header-utils.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   bucketchain-health =
@@ -334,6 +599,17 @@
         repo = "https://github.com/Bucketchain/purescript-bucketchain-health.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+          "bucketchain"
+          "effect"
+          "maybe"
+          "prelude"
+          "transformers"
+        ];
+      };
   };
   bucketchain-history-api-fallback =
   {
@@ -341,6 +617,12 @@
       {
         repo = "https://github.com/Bucketchain/purescript-bucketchain-history-api-fallback.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   bucketchain-logger =
@@ -350,6 +632,12 @@
         repo = "https://github.com/Bucketchain/purescript-bucketchain-logger.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   bucketchain-secure =
   {
@@ -357,6 +645,12 @@
       {
         repo = "https://github.com/Bucketchain/purescript-bucketchain-secure.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   bucketchain-simple-api =
@@ -366,6 +660,12 @@
         repo = "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git";
         rev = "v5.0.1";
       };
+    info =
+      {
+        version = "5.0.1";
+        dependencies = [
+        ];
+      };
   };
   bucketchain-sslify =
   {
@@ -373,6 +673,12 @@
       {
         repo = "https://github.com/Bucketchain/purescript-bucketchain-sslify.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   bucketchain-static =
@@ -382,6 +688,12 @@
         repo = "https://github.com/Bucketchain/purescript-bucketchain-static.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   call-by-name =
   {
@@ -389,6 +701,12 @@
       {
         repo = "https://github.com/natefaubion/purescript-call-by-name.git";
         rev = "v4.0.1";
+      };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+        ];
       };
   };
   canvas =
@@ -398,6 +716,12 @@
         repo = "https://github.com/purescript-web/purescript-canvas.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   canvas-action =
   {
@@ -405,6 +729,12 @@
       {
         repo = "https://github.com/artemisSystem/purescript-canvas-action.git";
         rev = "v9.0.0";
+      };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
       };
   };
   cartesian =
@@ -414,6 +744,16 @@
         repo = "https://github.com/Ebmtranceboy/purescript-cartesian.git";
         rev = "v1.0.6";
       };
+    info =
+      {
+        version = "1.0.6";
+        dependencies = [
+          "console"
+          "effect"
+          "psci-support"
+          "integers"
+        ];
+      };
   };
   catenable-lists =
   {
@@ -421,6 +761,12 @@
       {
         repo = "https://github.com/purescript/purescript-catenable-lists.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   channel =
@@ -430,6 +776,12 @@
         repo = "https://github.com/ConnorDillon/purescript-channel.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   checked-exceptions =
   {
@@ -437,6 +789,12 @@
       {
         repo = "https://github.com/natefaubion/purescript-checked-exceptions.git";
         rev = "v3.1.1";
+      };
+    info =
+      {
+        version = "3.1.1";
+        dependencies = [
+        ];
       };
   };
   classless =
@@ -446,6 +804,15 @@
         repo = "https://github.com/thought2/purescript-classless.git";
         rev = "v0.1.1";
       };
+    info =
+      {
+        version = "0.1.1";
+        dependencies = [
+          "heterogeneous"
+          "prelude"
+          "record"
+        ];
+      };
   };
   classless-arbitrary =
   {
@@ -453,6 +820,12 @@
       {
         repo = "https://github.com/thought2/purescript-classless-arbitrary.git";
         rev = "v0.1.1";
+      };
+    info =
+      {
+        version = "0.1.1";
+        dependencies = [
+        ];
       };
   };
   classless-decode-json =
@@ -462,6 +835,12 @@
         repo = "https://github.com/thought2/purescript-classless-decode-json.git";
         rev = "v0.1.1";
       };
+    info =
+      {
+        version = "0.1.1";
+        dependencies = [
+        ];
+      };
   };
   classless-encode-json =
   {
@@ -469,6 +848,12 @@
       {
         repo = "https://github.com/thought2/purescript-classless-encode-json.git";
         rev = "v0.1.3";
+      };
+    info =
+      {
+        version = "0.1.3";
+        dependencies = [
+        ];
       };
   };
   classnames =
@@ -478,6 +863,17 @@
         repo = "https://github.com/dewey92/purescript-classnames.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+          "maybe"
+          "prelude"
+          "record"
+          "strings"
+          "tuples"
+        ];
+      };
   };
   codec =
   {
@@ -485,6 +881,12 @@
       {
         repo = "https://github.com/garyb/purescript-codec.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   codec-argonaut =
@@ -494,6 +896,12 @@
         repo = "https://github.com/garyb/purescript-codec-argonaut.git";
         rev = "v10.0.0";
       };
+    info =
+      {
+        version = "10.0.0";
+        dependencies = [
+        ];
+      };
   };
   colors =
   {
@@ -501,6 +909,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-colors.git";
         rev = "v7.0.1";
+      };
+    info =
+      {
+        version = "7.0.1";
+        dependencies = [
+        ];
       };
   };
   concur-core =
@@ -510,6 +924,12 @@
         repo = "https://github.com/purescript-concur/purescript-concur-core.git";
         rev = "v0.5.0";
       };
+    info =
+      {
+        version = "0.5.0";
+        dependencies = [
+        ];
+      };
   };
   concur-react =
   {
@@ -517,6 +937,12 @@
       {
         repo = "https://github.com/purescript-concur/purescript-concur-react.git";
         rev = "v0.5.0";
+      };
+    info =
+      {
+        version = "0.5.0";
+        dependencies = [
+        ];
       };
   };
   concurrent-queues =
@@ -526,6 +952,12 @@
         repo = "https://github.com/purescript-contrib/purescript-concurrent-queues.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   console =
   {
@@ -533,6 +965,12 @@
       {
         repo = "https://github.com/purescript/purescript-console.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   const =
@@ -542,6 +980,12 @@
         repo = "https://github.com/purescript/purescript-const.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   contravariant =
   {
@@ -549,6 +993,12 @@
       {
         repo = "https://github.com/purescript/purescript-contravariant.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   control =
@@ -558,6 +1008,12 @@
         repo = "https://github.com/purescript/purescript-control.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   convertable-options =
   {
@@ -565,6 +1021,16 @@
       {
         repo = "https://github.com/natefaubion/purescript-convertable-options.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+          "console"
+          "effect"
+          "maybe"
+          "record"
+        ];
       };
   };
   coroutines =
@@ -574,6 +1040,12 @@
         repo = "https://github.com/purescript-contrib/purescript-coroutines.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   crypto =
   {
@@ -581,6 +1053,12 @@
       {
         repo = "https://github.com/oreshinya/purescript-crypto.git";
         rev = "v5.0.1";
+      };
+    info =
+      {
+        version = "5.0.1";
+        dependencies = [
+        ];
       };
   };
   css =
@@ -590,6 +1068,12 @@
         repo = "https://github.com/purescript-contrib/purescript-css.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   datetime =
   {
@@ -597,6 +1081,12 @@
       {
         repo = "https://github.com/purescript/purescript-datetime.git";
         rev = "v6.1.0";
+      };
+    info =
+      {
+        version = "6.1.0";
+        dependencies = [
+        ];
       };
   };
   datetime-parsing =
@@ -606,6 +1096,12 @@
         repo = "https://github.com/flounders/purescript-datetime-parsing.git";
         rev = "v0.2.0";
       };
+    info =
+      {
+        version = "0.2.0";
+        dependencies = [
+        ];
+      };
   };
   debug =
   {
@@ -613,6 +1109,16 @@
       {
         repo = "https://github.com/garyb/purescript-debug.git";
         rev = "v6.0.2";
+      };
+    info =
+      {
+        version = "6.0.2";
+        dependencies = [
+          "console"
+          "effect"
+          "functions"
+          "prelude"
+        ];
       };
   };
   decimals =
@@ -622,6 +1128,12 @@
         repo = "https://github.com/sharkdp/purescript-decimals.git";
         rev = "v7.1.0";
       };
+    info =
+      {
+        version = "7.1.0";
+        dependencies = [
+        ];
+      };
   };
   default-values =
   {
@@ -629,6 +1141,12 @@
       {
         repo = "https://github.com/imsaravana369/purescript-default.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   deku =
@@ -638,6 +1156,12 @@
         repo = "https://github.com/mikesol/purescript-deku.git";
         rev = "v0.9.12";
       };
+    info =
+      {
+        version = "0.9.12";
+        dependencies = [
+        ];
+      };
   };
   deno =
   {
@@ -645,6 +1169,12 @@
       {
         repo = "https://github.com/njaremko/purescript-deno.git";
         rev = "v0.0.5";
+      };
+    info =
+      {
+        version = "0.0.5";
+        dependencies = [
+        ];
       };
   };
   dissect =
@@ -654,6 +1184,12 @@
         repo = "https://github.com/PureFunctor/purescript-dissect.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   distributive =
   {
@@ -661,6 +1197,12 @@
       {
         repo = "https://github.com/purescript/purescript-distributive.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   dodo-printer =
@@ -670,6 +1212,12 @@
         repo = "https://github.com/natefaubion/purescript-dodo-printer.git";
         rev = "v2.2.1";
       };
+    info =
+      {
+        version = "2.2.1";
+        dependencies = [
+        ];
+      };
   };
   dom-filereader =
   {
@@ -677,6 +1225,12 @@
       {
         repo = "https://github.com/nwolverson/purescript-dom-filereader.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   dom-indexed =
@@ -686,6 +1240,12 @@
         repo = "https://github.com/purescript-halogen/purescript-dom-indexed.git";
         rev = "v11.0.0";
       };
+    info =
+      {
+        version = "11.0.0";
+        dependencies = [
+        ];
+      };
   };
   dotenv =
   {
@@ -693,6 +1253,12 @@
       {
         repo = "https://github.com/nsaunders/purescript-dotenv.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   droplet =
@@ -702,6 +1268,12 @@
         repo = "https://github.com/easafe/purescript-droplet.git";
         rev = "v0.6.0";
       };
+    info =
+      {
+        version = "0.6.0";
+        dependencies = [
+        ];
+      };
   };
   dynamic-buffer =
   {
@@ -709,6 +1281,16 @@
       {
         repo = "https://github.com/kritzcreek/purescript-dynamic-buffer.git";
         rev = "v3.0.1";
+      };
+    info =
+      {
+        version = "3.0.1";
+        dependencies = [
+          "arraybuffer-types"
+          "effect"
+          "prelude"
+          "refs"
+        ];
       };
   };
   echarts-simple =
@@ -718,6 +1300,12 @@
         repo = "https://github.com/lucasdicioccio/purescript-echarts-simple.git";
         rev = "v0.0.1";
       };
+    info =
+      {
+        version = "0.0.1";
+        dependencies = [
+        ];
+      };
   };
   effect =
   {
@@ -725,6 +1313,12 @@
       {
         repo = "https://github.com/purescript/purescript-effect.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   either =
@@ -734,6 +1328,12 @@
         repo = "https://github.com/purescript/purescript-either.git";
         rev = "v6.1.0";
       };
+    info =
+      {
+        version = "6.1.0";
+        dependencies = [
+        ];
+      };
   };
   elmish =
   {
@@ -741,6 +1341,12 @@
       {
         repo = "https://github.com/collegevine/purescript-elmish.git";
         rev = "v0.9.3";
+      };
+    info =
+      {
+        version = "0.9.3";
+        dependencies = [
+        ];
       };
   };
   elmish-enzyme =
@@ -750,6 +1356,12 @@
         repo = "https://github.com/collegevine/purescript-elmish-enzyme.git";
         rev = "v0.1.1";
       };
+    info =
+      {
+        version = "0.1.1";
+        dependencies = [
+        ];
+      };
   };
   elmish-hooks =
   {
@@ -757,6 +1369,12 @@
       {
         repo = "https://github.com/collegevine/purescript-elmish-hooks.git";
         rev = "v0.9.1";
+      };
+    info =
+      {
+        version = "0.9.1";
+        dependencies = [
+        ];
       };
   };
   elmish-html =
@@ -766,6 +1384,12 @@
         repo = "https://github.com/collegevine/purescript-elmish-html.git";
         rev = "v0.8.1";
       };
+    info =
+      {
+        version = "0.8.1";
+        dependencies = [
+        ];
+      };
   };
   elmish-testing-library =
   {
@@ -773,6 +1397,12 @@
       {
         repo = "https://github.com/collegevine/purescript-elmish-testing-library.git";
         rev = "v0.3.1";
+      };
+    info =
+      {
+        version = "0.3.1";
+        dependencies = [
+        ];
       };
   };
   email-validate =
@@ -782,6 +1412,12 @@
         repo = "https://github.com/cdepillabout/purescript-email-validate.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   encoding =
   {
@@ -789,6 +1425,12 @@
       {
         repo = "https://github.com/menelaos/purescript-encoding.git";
         rev = "v0.0.8";
+      };
+    info =
+      {
+        version = "0.0.8";
+        dependencies = [
+        ];
       };
   };
   enums =
@@ -798,6 +1440,12 @@
         repo = "https://github.com/purescript/purescript-enums.git";
         rev = "v6.0.1";
       };
+    info =
+      {
+        version = "6.0.1";
+        dependencies = [
+        ];
+      };
   };
   env-names =
   {
@@ -805,6 +1453,12 @@
       {
         repo = "https://github.com/joellefkowitz/env-names.git";
         rev = "v0.3.1";
+      };
+    info =
+      {
+        version = "0.3.1";
+        dependencies = [
+        ];
       };
   };
   error =
@@ -814,6 +1468,15 @@
         repo = "https://github.com/bklaric/purescript-error.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+          "console"
+          "effect"
+          "prelude"
+        ];
+      };
   };
   exceptions =
   {
@@ -821,6 +1484,12 @@
       {
         repo = "https://github.com/purescript/purescript-exceptions.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   exists =
@@ -830,6 +1499,12 @@
         repo = "https://github.com/purescript/purescript-exists.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   exitcodes =
   {
@@ -837,6 +1512,12 @@
       {
         repo = "https://github.com/Risto-Stevcev/purescript-exitcodes.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   expect-inferred =
@@ -846,6 +1527,12 @@
         repo = "https://github.com/justinwoo/purescript-expect-inferred.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   fahrtwind =
   {
@@ -853,6 +1540,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-fahrtwind.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
       };
   };
   fallback =
@@ -862,6 +1555,12 @@
         repo = "https://github.com/sigma-andex/purescript-fallback.git";
         rev = "v0.1.0";
       };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+        ];
+      };
   };
   fast-vect =
   {
@@ -869,6 +1568,12 @@
       {
         repo = "https://github.com/sigma-andex/purescript-fast-vect.git";
         rev = "v1.1.0";
+      };
+    info =
+      {
+        version = "1.1.0";
+        dependencies = [
+        ];
       };
   };
   fetch =
@@ -878,6 +1583,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-fetch.git";
         rev = "v1.1.4";
       };
+    info =
+      {
+        version = "1.1.4";
+        dependencies = [
+        ];
+      };
   };
   fetch-argonaut =
   {
@@ -885,6 +1596,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-fetch-argonaut.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   fetch-core =
@@ -894,6 +1611,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-fetch-core.git";
         rev = "v4.0.4";
       };
+    info =
+      {
+        version = "4.0.4";
+        dependencies = [
+        ];
+      };
   };
   fetch-yoga-json =
   {
@@ -901,6 +1624,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-fetch-yoga-json.git";
         rev = "v1.1.0";
+      };
+    info =
+      {
+        version = "1.1.0";
+        dependencies = [
+        ];
       };
   };
   filterable =
@@ -910,6 +1639,12 @@
         repo = "https://github.com/purescript/purescript-filterable.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   fixed-points =
   {
@@ -917,6 +1652,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-fixed-points.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   fixed-precision =
@@ -926,6 +1667,12 @@
         repo = "https://github.com/lumihq/purescript-fixed-precision.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   flame =
   {
@@ -933,6 +1680,12 @@
       {
         repo = "https://github.com/easafe/purescript-flame.git";
         rev = "v1.3.0";
+      };
+    info =
+      {
+        version = "1.3.0";
+        dependencies = [
+        ];
       };
   };
   float32 =
@@ -942,6 +1695,12 @@
         repo = "https://github.com/purescript-contrib/purescript-float32.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
+      };
   };
   foldable-traversable =
   {
@@ -949,6 +1708,12 @@
       {
         repo = "https://github.com/purescript/purescript-foldable-traversable.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   foreign =
@@ -958,6 +1723,12 @@
         repo = "https://github.com/purescript/purescript-foreign.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   foreign-object =
   {
@@ -965,6 +1736,12 @@
       {
         repo = "https://github.com/purescript/purescript-foreign-object.git";
         rev = "v4.1.0";
+      };
+    info =
+      {
+        version = "4.1.0";
+        dependencies = [
+        ];
       };
   };
   foreign-readwrite =
@@ -974,6 +1751,12 @@
         repo = "https://github.com/artemisSystem/purescript-foreign-readwrite.git";
         rev = "v3.4.0";
       };
+    info =
+      {
+        version = "3.4.0";
+        dependencies = [
+        ];
+      };
   };
   fork =
   {
@@ -981,6 +1764,17 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-fork.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+          "aff"
+          "console"
+          "effect"
+          "prelude"
+          "transformers"
+        ];
       };
   };
   form-urlencoded =
@@ -990,6 +1784,12 @@
         repo = "https://github.com/purescript-contrib/purescript-form-urlencoded.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   formatters =
   {
@@ -997,6 +1797,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-formatters.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   framer-motion =
@@ -1006,6 +1812,12 @@
         repo = "https://github.com/i-am-the-slime/purescript-framer-motion.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   free =
   {
@@ -1013,6 +1825,12 @@
       {
         repo = "https://github.com/purescript/purescript-free.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   freeap =
@@ -1022,6 +1840,12 @@
         repo = "https://github.com/ethul/purescript-freeap.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   freer-free =
   {
@@ -1029,6 +1853,12 @@
       {
         repo = "https://github.com/mikesol/purescript-freer-free.git";
         rev = "v0.0.1";
+      };
+    info =
+      {
+        version = "0.0.1";
+        dependencies = [
+        ];
       };
   };
   freet =
@@ -1038,6 +1868,12 @@
         repo = "https://github.com/purescript-contrib/purescript-freet.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   functions =
   {
@@ -1045,6 +1881,12 @@
       {
         repo = "https://github.com/purescript/purescript-functions.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   functor1 =
@@ -1054,6 +1896,12 @@
         repo = "https://github.com/garyb/purescript-functor1.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   functors =
   {
@@ -1061,6 +1909,12 @@
       {
         repo = "https://github.com/purescript/purescript-functors.git";
         rev = "v5.0.0";
+      };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
       };
   };
   fuzzy =
@@ -1070,6 +1924,12 @@
         repo = "https://github.com/citizennet/purescript-fuzzy.git";
         rev = "v0.4.0";
       };
+    info =
+      {
+        version = "0.4.0";
+        dependencies = [
+        ];
+      };
   };
   gen =
   {
@@ -1077,6 +1937,12 @@
       {
         repo = "https://github.com/purescript/purescript-gen.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   generate-values =
@@ -1086,6 +1952,12 @@
         repo = "https://github.com/jordanmartinez/purescript-generate-values.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   generic-router =
   {
@@ -1093,6 +1965,12 @@
       {
         repo = "https://github.com/njaremko/purescript-generic-router.git";
         rev = "v0.0.1";
+      };
+    info =
+      {
+        version = "0.0.1";
+        dependencies = [
+        ];
       };
   };
   geometry-plane =
@@ -1102,6 +1980,16 @@
         repo = "https://github.com/Ebmtranceboy/purescript-geometry-plane.git";
         rev = "v1.0.3";
       };
+    info =
+      {
+        version = "1.0.3";
+        dependencies = [
+          "console"
+          "effect"
+          "psci-support"
+          "sparse-polynomials"
+        ];
+      };
   };
   github-actions-toolkit =
   {
@@ -1109,6 +1997,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-github-actions-toolkit.git";
         rev = "v0.5.0";
+      };
+    info =
+      {
+        version = "0.5.0";
+        dependencies = [
+        ];
       };
   };
   grain =
@@ -1118,6 +2012,12 @@
         repo = "https://github.com/purescript-grain/purescript-grain.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   grain-router =
   {
@@ -1125,6 +2025,12 @@
       {
         repo = "https://github.com/purescript-grain/purescript-grain-router.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   grain-virtualized =
@@ -1134,6 +2040,12 @@
         repo = "https://github.com/purescript-grain/purescript-grain-virtualized.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   graphql-client =
   {
@@ -1141,6 +2053,12 @@
       {
         repo = "https://github.com/OxfordAbstracts/purescript-graphql-client.git";
         rev = "v9.3.2";
+      };
+    info =
+      {
+        version = "9.3.2";
+        dependencies = [
+        ];
       };
   };
   graphs =
@@ -1150,6 +2068,12 @@
         repo = "https://github.com/purescript/purescript-graphs.git";
         rev = "v8.1.0";
       };
+    info =
+      {
+        version = "8.1.0";
+        dependencies = [
+        ];
+      };
   };
   group =
   {
@@ -1157,6 +2081,12 @@
       {
         repo = "https://github.com/morganthomas/purescript-group.git";
         rev = "v4.1.1";
+      };
+    info =
+      {
+        version = "4.1.1";
+        dependencies = [
+        ];
       };
   };
   halogen =
@@ -1166,6 +2096,12 @@
         repo = "https://github.com/purescript-halogen/purescript-halogen.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   halogen-bootstrap5 =
   {
@@ -1173,6 +2109,13 @@
       {
         repo = "https://github.com/tonicebrian/purescript-halogen-bootstrap5.git";
         rev = "v2.1.0";
+      };
+    info =
+      {
+        version = "2.1.0";
+        dependencies = [
+          "halogen"
+        ];
       };
   };
   halogen-css =
@@ -1182,6 +2125,12 @@
         repo = "https://github.com/purescript-halogen/purescript-halogen-css.git";
         rev = "v10.0.0";
       };
+    info =
+      {
+        version = "10.0.0";
+        dependencies = [
+        ];
+      };
   };
   halogen-echarts-simple =
   {
@@ -1189,6 +2138,12 @@
       {
         repo = "https://github.com/lucasdicioccio/purescript-halogen-echarts-simple.git";
         rev = "v0.0.4";
+      };
+    info =
+      {
+        version = "0.0.4";
+        dependencies = [
+        ];
       };
   };
   halogen-formless =
@@ -1198,6 +2153,12 @@
         repo = "https://github.com/thomashoneyman/purescript-halogen-formless.git";
         rev = "v4.0.2";
       };
+    info =
+      {
+        version = "4.0.2";
+        dependencies = [
+        ];
+      };
   };
   halogen-helix =
   {
@@ -1205,6 +2166,12 @@
       {
         repo = "https://github.com/katsujukou/purescript-halogen-helix.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   halogen-hooks =
@@ -1214,6 +2181,12 @@
         repo = "https://github.com/thomashoneyman/purescript-halogen-hooks.git";
         rev = "v0.6.3";
       };
+    info =
+      {
+        version = "0.6.3";
+        dependencies = [
+        ];
+      };
   };
   halogen-hooks-extra =
   {
@@ -1221,6 +2194,13 @@
       {
         repo = "https://github.com/jordanmartinez/purescript-halogen-hooks-extra.git";
         rev = "v0.9.0";
+      };
+    info =
+      {
+        version = "0.9.0";
+        dependencies = [
+          "halogen-hooks"
+        ];
       };
   };
   halogen-store =
@@ -1230,6 +2210,12 @@
         repo = "https://github.com/thomashoneyman/purescript-halogen-store.git";
         rev = "v0.5.4";
       };
+    info =
+      {
+        version = "0.5.4";
+        dependencies = [
+        ];
+      };
   };
   halogen-storybook =
   {
@@ -1237,6 +2223,12 @@
       {
         repo = "https://github.com/rnons/purescript-halogen-storybook.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
       };
   };
   halogen-subscriptions =
@@ -1246,6 +2238,12 @@
         repo = "https://github.com/purescript-halogen/purescript-halogen-subscriptions.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
+      };
   };
   halogen-svg-elems =
   {
@@ -1253,6 +2251,12 @@
       {
         repo = "https://github.com/JordanMartinez/purescript-halogen-svg-elems.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   halogen-vdom =
@@ -1262,6 +2266,12 @@
         repo = "https://github.com/purescript-halogen/purescript-halogen-vdom.git";
         rev = "v8.0.0";
       };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
+      };
   };
   halogen-vdom-string-renderer =
   {
@@ -1269,6 +2279,12 @@
       {
         repo = "https://github.com/purescript-halogen/purescript-halogen-vdom-string-renderer.git";
         rev = "v0.5.0";
+      };
+    info =
+      {
+        version = "0.5.0";
+        dependencies = [
+        ];
       };
   };
   heckin =
@@ -1278,6 +2294,12 @@
         repo = "https://github.com/maxdeviant/purescript-heckin.git";
         rev = "v2.0.1";
       };
+    info =
+      {
+        version = "2.0.1";
+        dependencies = [
+        ];
+      };
   };
   heterogeneous =
   {
@@ -1285,6 +2307,12 @@
       {
         repo = "https://github.com/natefaubion/purescript-heterogeneous.git";
         rev = "v0.6.0";
+      };
+    info =
+      {
+        version = "0.6.0";
+        dependencies = [
+        ];
       };
   };
   homogeneous =
@@ -1294,6 +2322,12 @@
         repo = "https://github.com/paluh/purescript-homogeneous.git";
         rev = "v0.4.0";
       };
+    info =
+      {
+        version = "0.4.0";
+        dependencies = [
+        ];
+      };
   };
   http-methods =
   {
@@ -1301,6 +2335,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-http-methods.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   httpure =
@@ -1310,6 +2350,12 @@
         repo = "https://github.com/citizennet/purescript-httpure.git";
         rev = "v0.16.0";
       };
+    info =
+      {
+        version = "0.16.0";
+        dependencies = [
+        ];
+      };
   };
   httpurple =
   {
@@ -1317,6 +2363,12 @@
       {
         repo = "https://github.com/sigma-andex/purescript-httpurple.git";
         rev = "v3.0.1";
+      };
+    info =
+      {
+        version = "3.0.1";
+        dependencies = [
+        ];
       };
   };
   httpurple-argonaut =
@@ -1326,6 +2378,12 @@
         repo = "https://github.com/sigma-andex/purescript-httpurple-argonaut.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   httpurple-yoga-json =
   {
@@ -1333,6 +2391,12 @@
       {
         repo = "https://github.com/sigma-andex/purescript-httpurple-yoga-json.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   humdrum =
@@ -1342,6 +2406,12 @@
         repo = "https://github.com/lucasdicioccio/purescript-humdrum.git";
         rev = "v0.0.1";
       };
+    info =
+      {
+        version = "0.0.1";
+        dependencies = [
+        ];
+      };
   };
   hyrule =
   {
@@ -1349,6 +2419,12 @@
       {
         repo = "https://github.com/mikesol/purescript-hyrule.git";
         rev = "v2.3.7";
+      };
+    info =
+      {
+        version = "2.3.7";
+        dependencies = [
+        ];
       };
   };
   identity =
@@ -1358,6 +2434,12 @@
         repo = "https://github.com/purescript/purescript-identity.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   identy =
   {
@@ -1365,6 +2447,12 @@
       {
         repo = "https://github.com/oreshinya/purescript-identy.git";
         rev = "v4.0.1";
+      };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+        ];
       };
   };
   indexed-monad =
@@ -1374,6 +2462,12 @@
         repo = "https://github.com/garyb/purescript-indexed-monad.git";
         rev = "v2.1.0";
       };
+    info =
+      {
+        version = "2.1.0";
+        dependencies = [
+        ];
+      };
   };
   int64 =
   {
@@ -1381,6 +2475,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-int64.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   integers =
@@ -1390,6 +2490,12 @@
         repo = "https://github.com/purescript/purescript-integers.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   interpolate =
   {
@@ -1397,6 +2503,12 @@
       {
         repo = "https://github.com/jordanmartinez/purescript-interpolate.git";
         rev = "v5.0.2";
+      };
+    info =
+      {
+        version = "5.0.2";
+        dependencies = [
+        ];
       };
   };
   invariant =
@@ -1406,6 +2518,12 @@
         repo = "https://github.com/purescript/purescript-invariant.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   jarilo =
   {
@@ -1413,6 +2531,12 @@
       {
         repo = "https://github.com/bklaric/purescript-jarilo.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   jelly =
@@ -1422,6 +2546,12 @@
         repo = "https://github.com/yukikurage/purescript-jelly.git";
         rev = "v0.10.0";
       };
+    info =
+      {
+        version = "0.10.0";
+        dependencies = [
+        ];
+      };
   };
   jelly-router =
   {
@@ -1429,6 +2559,12 @@
       {
         repo = "https://github.com/yukikurage/purescript-jelly-router.git";
         rev = "v0.3.0";
+      };
+    info =
+      {
+        version = "0.3.0";
+        dependencies = [
+        ];
       };
   };
   jelly-signal =
@@ -1438,6 +2574,12 @@
         repo = "https://github.com/yukikurage/purescript-jelly-signal.git";
         rev = "v0.4.0";
       };
+    info =
+      {
+        version = "0.4.0";
+        dependencies = [
+        ];
+      };
   };
   jest =
   {
@@ -1445,6 +2587,12 @@
       {
         repo = "https://github.com/nonbili/purescript-jest.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   js-abort-controller =
@@ -1454,6 +2602,17 @@
         repo = "https://github.com/purescript-contrib/purescript-js-abort-controller.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+          "effect"
+          "foreign"
+          "maybe"
+          "nullable"
+          "prelude"
+        ];
+      };
   };
   js-bigints =
   {
@@ -1461,6 +2620,15 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-js-bigints.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+          "integers"
+          "maybe"
+          "prelude"
+        ];
       };
   };
   js-date =
@@ -1470,6 +2638,12 @@
         repo = "https://github.com/purescript-contrib/purescript-js-date.git";
         rev = "v8.0.0";
       };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
+      };
   };
   js-fileio =
   {
@@ -1477,6 +2651,15 @@
       {
         repo = "https://github.com/newlandsvalley/purescript-js-fileio.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+          "aff"
+          "effect"
+          "prelude"
+        ];
       };
   };
   js-promise =
@@ -1486,6 +2669,12 @@
         repo = "https://github.com/purescript-contrib/purescript-js-promise.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   js-promise-aff =
   {
@@ -1493,6 +2682,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-js-promise-aff.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   js-timers =
@@ -1502,6 +2697,12 @@
         repo = "https://github.com/purescript-contrib/purescript-js-timers.git";
         rev = "v6.1.0";
       };
+    info =
+      {
+        version = "6.1.0";
+        dependencies = [
+        ];
+      };
   };
   js-uri =
   {
@@ -1509,6 +2710,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-js-uri.git";
         rev = "v3.1.0";
+      };
+    info =
+      {
+        version = "3.1.0";
+        dependencies = [
+        ];
       };
   };
   json-codecs =
@@ -1518,6 +2725,12 @@
         repo = "https://github.com/jordanmartinez/purescript-json-codecs.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   justifill =
   {
@@ -1525,6 +2738,12 @@
       {
         repo = "https://github.com/i-am-the-slime/purescript-justifill.git";
         rev = "v0.5.0";
+      };
+    info =
+      {
+        version = "0.5.0";
+        dependencies = [
+        ];
       };
   };
   jwt =
@@ -1534,6 +2753,12 @@
         repo = "https://github.com/menelaos/purescript-jwt.git";
         rev = "v0.0.9";
       };
+    info =
+      {
+        version = "0.0.9";
+        dependencies = [
+        ];
+      };
   };
   language-cst-parser =
   {
@@ -1541,6 +2766,12 @@
       {
         repo = "https://github.com/natefaubion/purescript-language-cst-parser.git";
         rev = "v0.12.1";
+      };
+    info =
+      {
+        version = "0.12.1";
+        dependencies = [
+        ];
       };
   };
   lazy =
@@ -1550,6 +2781,12 @@
         repo = "https://github.com/purescript/purescript-lazy.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   lazy-joe =
   {
@@ -1557,6 +2794,12 @@
       {
         repo = "https://github.com/sigma-andex/purescript-lazy-joe.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   lcg =
@@ -1566,6 +2809,12 @@
         repo = "https://github.com/purescript/purescript-lcg.git";
         rev = "v4.0.0";
       };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
+      };
   };
   leibniz =
   {
@@ -1573,6 +2822,12 @@
       {
         repo = "https://github.com/paf31/purescript-leibniz.git";
         rev = "v5.0.0";
+      };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
       };
   };
   linalg =
@@ -1582,6 +2837,12 @@
         repo = "https://github.com/gbagan/purescript-linalg.git";
         rev = "v5.1.0";
       };
+    info =
+      {
+        version = "5.1.0";
+        dependencies = [
+        ];
+      };
   };
   lists =
   {
@@ -1589,6 +2850,12 @@
       {
         repo = "https://github.com/purescript/purescript-lists.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   literals =
@@ -1598,6 +2865,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-literals.git";
         rev = "v1.0.2";
       };
+    info =
+      {
+        version = "1.0.2";
+        dependencies = [
+        ];
+      };
   };
   logging =
   {
@@ -1605,6 +2878,12 @@
       {
         repo = "https://github.com/rightfold/purescript-logging.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   logging-journald =
@@ -1614,6 +2893,16 @@
         repo = "https://github.com/paluh/purescript-logging-journald.git";
         rev = "v0.4.0";
       };
+    info =
+      {
+        version = "0.4.0";
+        dependencies = [
+          "effect"
+          "logging"
+          "prelude"
+          "systemd-journald"
+        ];
+      };
   };
   machines =
   {
@@ -1621,6 +2910,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-machines.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   marionette =
@@ -1630,6 +2925,12 @@
         repo = "https://github.com/thought2/purescript-marionette.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   marionette-commander =
   {
@@ -1637,6 +2938,12 @@
       {
         repo = "https://github.com/thought2/purescript-marionette-commander.git";
         rev = "v0.1.1";
+      };
+    info =
+      {
+        version = "0.1.1";
+        dependencies = [
+        ];
       };
   };
   marionette-react-basic-hooks =
@@ -1646,6 +2953,12 @@
         repo = "https://github.com/thought2/purescript-marionette-react-basic-hooks.git";
         rev = "v0.1.1";
       };
+    info =
+      {
+        version = "0.1.1";
+        dependencies = [
+        ];
+      };
   };
   matrices =
   {
@@ -1653,6 +2966,12 @@
       {
         repo = "https://github.com/kRITZCREEK/purescript-matrices.git";
         rev = "v5.0.1";
+      };
+    info =
+      {
+        version = "5.0.1";
+        dependencies = [
+        ];
       };
   };
   matryoshka =
@@ -1662,6 +2981,12 @@
         repo = "https://github.com/purescript-contrib/purescript-matryoshka.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   maybe =
   {
@@ -1669,6 +2994,12 @@
       {
         repo = "https://github.com/purescript/purescript-maybe.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   mdast-util-from-markdown =
@@ -1678,6 +3009,12 @@
         repo = "https://github.com/sigma-andex/purescript-mdast-util-from-markdown.git";
         rev = "v0.2.1";
       };
+    info =
+      {
+        version = "0.2.1";
+        dependencies = [
+        ];
+      };
   };
   media-types =
   {
@@ -1685,6 +3022,14 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-media-types.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+          "newtype"
+          "prelude"
+        ];
       };
   };
   midi =
@@ -1694,6 +3039,12 @@
         repo = "https://github.com/newlandsvalley/purescript-midi.git";
         rev = "v4.0.0";
       };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
+      };
   };
   milkis =
   {
@@ -1701,6 +3052,12 @@
       {
         repo = "https://github.com/justinwoo/purescript-milkis.git";
         rev = "v9.0.0";
+      };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
       };
   };
   minibench =
@@ -1710,6 +3067,12 @@
         repo = "https://github.com/purescript/purescript-minibench.git";
         rev = "v4.0.1";
       };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+        ];
+      };
   };
   mmorph =
   {
@@ -1717,6 +3080,12 @@
       {
         repo = "https://github.com/Thimoteus/purescript-mmorph.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   monad-control =
@@ -1726,6 +3095,12 @@
         repo = "https://github.com/athanclark/purescript-monad-control.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   monad-logger =
   {
@@ -1733,6 +3108,12 @@
       {
         repo = "https://github.com/cprussin/purescript-monad-logger.git";
         rev = "v1.3.1";
+      };
+    info =
+      {
+        version = "1.3.1";
+        dependencies = [
+        ];
       };
   };
   monad-loops =
@@ -1742,6 +3123,12 @@
         repo = "https://github.com/mlang/purescript-monad-loops.git";
         rev = "v0.5.0";
       };
+    info =
+      {
+        version = "0.5.0";
+        dependencies = [
+        ];
+      };
   };
   monad-unlift =
   {
@@ -1749,6 +3136,13 @@
       {
         repo = "https://github.com/athanclark/purescript-monad-unlift.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+          "monad-control"
+        ];
       };
   };
   monoid-extras =
@@ -1758,6 +3152,12 @@
         repo = "https://github.com/mikesol/purescript-monoid-extras.git";
         rev = "v0.0.1";
       };
+    info =
+      {
+        version = "0.0.1";
+        dependencies = [
+        ];
+      };
   };
   monoidal =
   {
@@ -1765,6 +3165,16 @@
       {
         repo = "https://github.com/mcneissue/purescript-monoidal.git";
         rev = "v0.16.0";
+      };
+    info =
+      {
+        version = "0.16.0";
+        dependencies = [
+          "profunctor"
+          "either"
+          "tuples"
+          "these"
+        ];
       };
   };
   morello =
@@ -1774,6 +3184,12 @@
         repo = "https://github.com/sigma-andex/purescript-morello.git";
         rev = "v0.4.0";
       };
+    info =
+      {
+        version = "0.4.0";
+        dependencies = [
+        ];
+      };
   };
   mote =
   {
@@ -1781,6 +3197,12 @@
       {
         repo = "https://github.com/garyb/purescript-mote.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   motsunabe =
@@ -1790,6 +3212,12 @@
         repo = "https://github.com/justinwoo/purescript-motsunabe.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
+      };
   };
   mysql =
   {
@@ -1797,6 +3225,12 @@
       {
         repo = "https://github.com/oreshinya/purescript-mysql.git";
         rev = "v6.0.1";
+      };
+    info =
+      {
+        version = "6.0.1";
+        dependencies = [
+        ];
       };
   };
   n3 =
@@ -1806,6 +3240,12 @@
         repo = "https://github.com/wintechis/purescript-n3.git";
         rev = "v0.1.0";
       };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+        ];
+      };
   };
   nano-id =
   {
@@ -1813,6 +3253,12 @@
       {
         repo = "https://github.com/eikooc/nano-id.git";
         rev = "v1.1.0";
+      };
+    info =
+      {
+        version = "1.1.0";
+        dependencies = [
+        ];
       };
   };
   naturals =
@@ -1822,6 +3268,12 @@
         repo = "https://github.com/LiamGoodacre/purescript-naturals.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   nested-functor =
   {
@@ -1829,6 +3281,14 @@
       {
         repo = "https://github.com/acple/purescript-nested-functor.git";
         rev = "v0.2.1";
+      };
+    info =
+      {
+        version = "0.2.1";
+        dependencies = [
+          "prelude"
+          "type-equality"
+        ];
       };
   };
   newtype =
@@ -1838,6 +3298,12 @@
         repo = "https://github.com/purescript/purescript-newtype.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   nextjs =
   {
@@ -1845,6 +3311,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-nextjs.git";
         rev = "v0.1.1";
+      };
+    info =
+      {
+        version = "0.1.1";
+        dependencies = [
+        ];
       };
   };
   nextui =
@@ -1854,6 +3326,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-nextui.git";
         rev = "v0.2.0";
       };
+    info =
+      {
+        version = "0.2.0";
+        dependencies = [
+        ];
+      };
   };
   node-buffer =
   {
@@ -1861,6 +3339,12 @@
       {
         repo = "https://github.com/purescript-node/purescript-node-buffer.git";
         rev = "v8.0.0";
+      };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
       };
   };
   node-buffer-blob =
@@ -1870,6 +3354,12 @@
         repo = "https://github.com/purescript-node/purescript-node-buffer-blob.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   node-child-process =
   {
@@ -1877,6 +3367,12 @@
       {
         repo = "https://github.com/purescript-node/purescript-node-child-process.git";
         rev = "v9.0.0";
+      };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
       };
   };
   node-event-emitter =
@@ -1886,6 +3382,12 @@
         repo = "https://github.com/purescript-node/purescript-node-event-emitter.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   node-execa =
   {
@@ -1893,6 +3395,12 @@
       {
         repo = "https://github.com/jordanmartinez/purescript-node-execa.git";
         rev = "v1.1.0";
+      };
+    info =
+      {
+        version = "1.1.0";
+        dependencies = [
+        ];
       };
   };
   node-fs =
@@ -1902,6 +3410,12 @@
         repo = "https://github.com/purescript-node/purescript-node-fs.git";
         rev = "v8.1.1";
       };
+    info =
+      {
+        version = "8.1.1";
+        dependencies = [
+        ];
+      };
   };
   node-fs-aff =
   {
@@ -1909,6 +3423,12 @@
       {
         repo = "https://github.com/purescript-node/purescript-node-fs-aff.git";
         rev = "v9.1.0";
+      };
+    info =
+      {
+        version = "9.1.0";
+        dependencies = [
+        ];
       };
   };
   node-http =
@@ -1918,6 +3438,12 @@
         repo = "https://github.com/purescript-node/purescript-node-http.git";
         rev = "v8.0.0";
       };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
+      };
   };
   node-human-signals =
   {
@@ -1925,6 +3451,12 @@
       {
         repo = "https://github.com/jordanmartinez/purescript-node-human-signals.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   node-net =
@@ -1934,6 +3466,12 @@
         repo = "https://github.com/purescript-node/purescript-node-net.git";
         rev = "v4.0.0";
       };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
+      };
   };
   node-path =
   {
@@ -1941,6 +3479,12 @@
       {
         repo = "https://github.com/purescript-node/purescript-node-path.git";
         rev = "v5.0.0";
+      };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
       };
   };
   node-process =
@@ -1950,6 +3494,12 @@
         repo = "https://github.com/purescript-node/purescript-node-process.git";
         rev = "v10.0.0";
       };
+    info =
+      {
+        version = "10.0.0";
+        dependencies = [
+        ];
+      };
   };
   node-readline =
   {
@@ -1957,6 +3507,12 @@
       {
         repo = "https://github.com/purescript-node/purescript-node-readline.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   node-sqlite3 =
@@ -1966,6 +3522,12 @@
         repo = "https://github.com/justinwoo/purescript-node-sqlite3.git";
         rev = "v8.0.0";
       };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
+      };
   };
   node-streams =
   {
@@ -1973,6 +3535,12 @@
       {
         repo = "https://github.com/purescript-node/purescript-node-streams.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   node-streams-aff =
@@ -1982,6 +3550,12 @@
         repo = "https://github.com/purescript-node/purescript-node-streams-aff.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   node-url =
   {
@@ -1989,6 +3563,12 @@
       {
         repo = "https://github.com/purescript-node/purescript-node-url.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   nodemailer =
@@ -1998,6 +3578,12 @@
         repo = "https://github.com/oreshinya/purescript-nodemailer.git";
         rev = "v4.0.1";
       };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+        ];
+      };
   };
   nonempty =
   {
@@ -2005,6 +3591,12 @@
       {
         repo = "https://github.com/purescript/purescript-nonempty.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   now =
@@ -2014,6 +3606,12 @@
         repo = "https://github.com/purescript-contrib/purescript-now.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   npm-package-json =
   {
@@ -2021,6 +3619,12 @@
       {
         repo = "https://github.com/maxdeviant/purescript-npm-package-json.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
       };
   };
   nullable =
@@ -2030,6 +3634,12 @@
         repo = "https://github.com/purescript-contrib/purescript-nullable.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   numbers =
   {
@@ -2037,6 +3647,12 @@
       {
         repo = "https://github.com/purescript/purescript-numbers.git";
         rev = "v9.0.1";
+      };
+    info =
+      {
+        version = "9.0.1";
+        dependencies = [
+        ];
       };
   };
   object-maps =
@@ -2046,6 +3662,12 @@
         repo = "https://github.com/thought2/purescript-object-maps.git";
         rev = "v0.1.1";
       };
+    info =
+      {
+        version = "0.1.1";
+        dependencies = [
+        ];
+      };
   };
   ocarina =
   {
@@ -2053,6 +3675,12 @@
       {
         repo = "https://github.com/mikesol/purescript-ocarina.git";
         rev = "v1.5.2";
+      };
+    info =
+      {
+        version = "1.5.2";
+        dependencies = [
+        ];
       };
   };
   open-folds =
@@ -2062,6 +3690,12 @@
         repo = "https://github.com/purescript-open-community/purescript-open-folds.git";
         rev = "v6.3.0";
       };
+    info =
+      {
+        version = "6.3.0";
+        dependencies = [
+        ];
+      };
   };
   open-memoize =
   {
@@ -2069,6 +3703,12 @@
       {
         repo = "https://github.com/purescript-open-community/purescript-open-memoize.git";
         rev = "v6.1.0";
+      };
+    info =
+      {
+        version = "6.1.0";
+        dependencies = [
+        ];
       };
   };
   open-pairing =
@@ -2078,6 +3718,12 @@
         repo = "https://github.com/purescript-open-community/purescript-open-pairing.git";
         rev = "v6.1.0";
       };
+    info =
+      {
+        version = "6.1.0";
+        dependencies = [
+        ];
+      };
   };
   options =
   {
@@ -2085,6 +3731,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-options.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   optparse =
@@ -2094,6 +3746,12 @@
         repo = "https://github.com/f-o-a-m/purescript-optparse.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   ordered-collections =
   {
@@ -2101,6 +3759,12 @@
       {
         repo = "https://github.com/purescript/purescript-ordered-collections.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   ordered-set =
@@ -2110,6 +3774,17 @@
         repo = "https://github.com/flip111/purescript-ordered-set.git";
         rev = "v0.4.0";
       };
+    info =
+      {
+        version = "0.4.0";
+        dependencies = [
+          "argonaut-codecs"
+          "arrays"
+          "partial"
+          "prelude"
+          "unfoldable"
+        ];
+      };
   };
   orders =
   {
@@ -2117,6 +3792,12 @@
       {
         repo = "https://github.com/purescript/purescript-orders.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   pairs =
@@ -2126,6 +3807,12 @@
         repo = "https://github.com/sharkdp/purescript-pairs.git";
         rev = "v9.0.0";
       };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
+      };
   };
   parallel =
   {
@@ -2133,6 +3820,12 @@
       {
         repo = "https://github.com/purescript/purescript-parallel.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   parsing =
@@ -2142,6 +3835,12 @@
         repo = "https://github.com/purescript-contrib/purescript-parsing.git";
         rev = "v10.2.0";
       };
+    info =
+      {
+        version = "10.2.0";
+        dependencies = [
+        ];
+      };
   };
   parsing-dataview =
   {
@@ -2149,6 +3848,12 @@
       {
         repo = "https://github.com/jamesdbrock/purescript-parsing-dataview.git";
         rev = "v3.2.4";
+      };
+    info =
+      {
+        version = "3.2.4";
+        dependencies = [
+        ];
       };
   };
   partial =
@@ -2158,6 +3863,12 @@
         repo = "https://github.com/purescript/purescript-partial.git";
         rev = "v4.0.0";
       };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
+      };
   };
   pathy =
   {
@@ -2165,6 +3876,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-pathy.git";
         rev = "v9.0.0";
+      };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
       };
   };
   pha =
@@ -2174,6 +3891,12 @@
         repo = "https://github.com/gbagan/purescript-pha.git";
         rev = "v0.9.1";
       };
+    info =
+      {
+        version = "0.9.1";
+        dependencies = [
+        ];
+      };
   };
   phaser =
   {
@@ -2181,6 +3904,12 @@
       {
         repo = "https://github.com/lfarroco/purescript-phaser.git";
         rev = "v0.7.0";
+      };
+    info =
+      {
+        version = "0.7.0";
+        dependencies = [
+        ];
       };
   };
   pipes =
@@ -2190,6 +3919,12 @@
         repo = "https://github.com/felixschl/purescript-pipes.git";
         rev = "v8.0.0";
       };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
+      };
   };
   pirates-charm =
   {
@@ -2197,6 +3932,12 @@
       {
         repo = "https://github.com/mikesol/purescript-pirates-charm.git";
         rev = "v0.0.1";
+      };
+    info =
+      {
+        version = "0.0.1";
+        dependencies = [
+        ];
       };
   };
   point-free =
@@ -2206,6 +3947,12 @@
         repo = "https://github.com/ursi/purescript-point-free.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   pointed-list =
   {
@@ -2213,6 +3960,12 @@
       {
         repo = "https://github.com/paluh/purescript-pointed-list.git";
         rev = "v0.5.1";
+      };
+    info =
+      {
+        version = "0.5.1";
+        dependencies = [
+        ];
       };
   };
   polymorphic-vectors =
@@ -2222,6 +3975,12 @@
         repo = "https://github.com/artemisSystem/purescript-polymorphic-vectors.git";
         rev = "v4.0.0";
       };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
+      };
   };
   posix-types =
   {
@@ -2229,6 +3988,12 @@
       {
         repo = "https://github.com/purescript-node/purescript-posix-types.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   precise =
@@ -2238,6 +4003,12 @@
         repo = "https://github.com/purescript-contrib/purescript-precise.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   precise-datetime =
   {
@@ -2245,6 +4016,12 @@
       {
         repo = "https://github.com/awakesecurity/purescript-precise-datetime.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   prelude =
@@ -2254,6 +4031,12 @@
         repo = "https://github.com/purescript/purescript-prelude.git";
         rev = "v6.0.1";
       };
+    info =
+      {
+        version = "6.0.1";
+        dependencies = [
+        ];
+      };
   };
   prettier-printer =
   {
@@ -2261,6 +4044,12 @@
       {
         repo = "https://github.com/paulyoung/purescript-prettier-printer.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   profunctor =
@@ -2270,6 +4059,12 @@
         repo = "https://github.com/purescript/purescript-profunctor.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   profunctor-lenses =
   {
@@ -2277,6 +4072,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-profunctor-lenses.git";
         rev = "v8.0.0";
+      };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
       };
   };
   protobuf =
@@ -2286,6 +4087,12 @@
         repo = "https://github.com/xc-jp/purescript-protobuf.git";
         rev = "v4.3.0";
       };
+    info =
+      {
+        version = "4.3.0";
+        dependencies = [
+        ];
+      };
   };
   ps-cst =
   {
@@ -2293,6 +4100,12 @@
       {
         repo = "https://github.com/purescript-codegen/purescript-ps-cst.git";
         rev = "v1.2.0";
+      };
+    info =
+      {
+        version = "1.2.0";
+        dependencies = [
+        ];
       };
   };
   psa-utils =
@@ -2302,6 +4115,12 @@
         repo = "https://github.com/natefaubion/purescript-psa-utils.git";
         rev = "v8.0.0";
       };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
+      };
   };
   psc-ide =
   {
@@ -2309,6 +4128,12 @@
       {
         repo = "https://github.com/kRITZCREEK/purescript-psc-ide.git";
         rev = "v19.0.0";
+      };
+    info =
+      {
+        version = "19.0.0";
+        dependencies = [
+        ];
       };
   };
   psci-support =
@@ -2318,6 +4143,12 @@
         repo = "https://github.com/purescript/purescript-psci-support.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   qualified-do =
   {
@@ -2325,6 +4156,12 @@
       {
         repo = "https://github.com/artemisSystem/purescript-qualified-do.git";
         rev = "v2.2.0";
+      };
+    info =
+      {
+        version = "2.2.0";
+        dependencies = [
+        ];
       };
   };
   quantities =
@@ -2334,6 +4171,12 @@
         repo = "https://github.com/sharkdp/purescript-quantities.git";
         rev = "v12.1.0";
       };
+    info =
+      {
+        version = "12.1.0";
+        dependencies = [
+        ];
+      };
   };
   quickcheck =
   {
@@ -2341,6 +4184,12 @@
       {
         repo = "https://github.com/purescript/purescript-quickcheck.git";
         rev = "v8.0.1";
+      };
+    info =
+      {
+        version = "8.0.1";
+        dependencies = [
+        ];
       };
   };
   quickcheck-combinators =
@@ -2350,6 +4199,12 @@
         repo = "https://github.com/athanclark/purescript-quickcheck-combinators.git";
         rev = "v0.1.3";
       };
+    info =
+      {
+        version = "0.1.3";
+        dependencies = [
+        ];
+      };
   };
   quickcheck-laws =
   {
@@ -2357,6 +4212,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-quickcheck-laws.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   quickcheck-utf8 =
@@ -2366,6 +4227,16 @@
         repo = "https://github.com/openchronology/purescript-quickcheck-utf8.git";
         rev = "v0.0.0";
       };
+    info =
+      {
+        version = "0.0.0";
+        dependencies = [
+          "console"
+          "effect"
+          "psci-support"
+          "quickcheck"
+        ];
+      };
   };
   random =
   {
@@ -2373,6 +4244,12 @@
       {
         repo = "https://github.com/purescript/purescript-random.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   rationals =
@@ -2382,6 +4259,14 @@
         repo = "https://github.com/purescript-contrib/purescript-rationals.git";
         rev = "v5.0.1";
       };
+    info =
+      {
+        version = "5.0.1";
+        dependencies = [
+          "integers"
+          "prelude"
+        ];
+      };
   };
   rdf =
   {
@@ -2389,6 +4274,12 @@
       {
         repo = "https://github.com/wintechis/purescript-rdf.git";
         rev = "v0.1.0";
+      };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+        ];
       };
   };
   react =
@@ -2398,6 +4289,12 @@
         repo = "https://github.com/purescript-contrib/purescript-react.git";
         rev = "v11.0.0";
       };
+    info =
+      {
+        version = "11.0.0";
+        dependencies = [
+        ];
+      };
   };
   react-aria =
   {
@@ -2405,6 +4302,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-react-aria.git";
         rev = "v0.2.0";
+      };
+    info =
+      {
+        version = "0.2.0";
+        dependencies = [
+        ];
       };
   };
   react-basic =
@@ -2414,6 +4317,15 @@
         repo = "https://github.com/lumihq/purescript-react-basic.git";
         rev = "v17.0.0";
       };
+    info =
+      {
+        version = "17.0.0";
+        dependencies = [
+          "effect"
+          "prelude"
+          "record"
+        ];
+      };
   };
   react-basic-classic =
   {
@@ -2421,6 +4333,12 @@
       {
         repo = "https://github.com/lumihq/purescript-react-basic-classic.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   react-basic-dnd =
@@ -2430,6 +4348,12 @@
         repo = "https://github.com/lumihq/purescript-react-dnd-basic.git";
         rev = "v10.1.0";
       };
+    info =
+      {
+        version = "10.1.0";
+        dependencies = [
+        ];
+      };
   };
   react-basic-dom =
   {
@@ -2437,6 +4361,12 @@
       {
         repo = "https://github.com/lumihq/purescript-react-basic-dom.git";
         rev = "v6.1.0";
+      };
+    info =
+      {
+        version = "6.1.0";
+        dependencies = [
+        ];
       };
   };
   react-basic-emotion =
@@ -2446,6 +4376,12 @@
         repo = "https://github.com/lumihq/purescript-react-basic-emotion.git";
         rev = "v7.1.0";
       };
+    info =
+      {
+        version = "7.1.0";
+        dependencies = [
+        ];
+      };
   };
   react-basic-hooks =
   {
@@ -2453,6 +4389,12 @@
       {
         repo = "https://github.com/megamaddu/purescript-react-basic-hooks.git";
         rev = "v8.1.2";
+      };
+    info =
+      {
+        version = "8.1.2";
+        dependencies = [
+        ];
       };
   };
   react-basic-storybook =
@@ -2462,6 +4404,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-react-basic-storybook.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
+      };
   };
   react-dom =
   {
@@ -2469,6 +4417,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-react-dom.git";
         rev = "v8.0.0";
+      };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
       };
   };
   react-halo =
@@ -2478,6 +4432,12 @@
         repo = "https://github.com/robertdp/purescript-react-halo.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   react-icons =
   {
@@ -2485,6 +4445,15 @@
       {
         repo = "https://github.com/andys8/purescript-react-icons.git";
         rev = "v1.1.1";
+      };
+    info =
+      {
+        version = "1.1.1";
+        dependencies = [
+          "react-basic"
+          "react-basic-dom"
+          "unsafe-coerce"
+        ];
       };
   };
   react-markdown =
@@ -2494,6 +4463,14 @@
         repo = "https://github.com/rowtype-yoga/purescript-react-markdown.git";
         rev = "v0.1.0";
       };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+          "prelude"
+          "react-basic-hooks"
+        ];
+      };
   };
   react-testing-library =
   {
@@ -2501,6 +4478,12 @@
       {
         repo = "https://github.com/i-am-the-slime/purescript-react-testing-library.git";
         rev = "v4.0.1";
+      };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+        ];
       };
   };
   react-virtuoso =
@@ -2510,6 +4493,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-react-virtuoso.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   read =
   {
@@ -2517,6 +4506,12 @@
       {
         repo = "https://github.com/truqu/purescript-read.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   recharts =
@@ -2526,6 +4521,12 @@
         repo = "https://github.com/tfc/purescript-recharts.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   record =
   {
@@ -2533,6 +4534,12 @@
       {
         repo = "https://github.com/purescript/purescript-record.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   record-extra =
@@ -2542,6 +4549,12 @@
         repo = "https://github.com/justinwoo/purescript-record-extra.git";
         rev = "v5.0.1";
       };
+    info =
+      {
+        version = "5.0.1";
+        dependencies = [
+        ];
+      };
   };
   record-studio =
   {
@@ -2549,6 +4562,17 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-record-studio.git";
         rev = "v1.0.4";
+      };
+    info =
+      {
+        version = "1.0.4";
+        dependencies = [
+          "heterogeneous"
+          "lists"
+          "prelude"
+          "record"
+          "typelevel-prelude"
+        ];
       };
   };
   refs =
@@ -2558,6 +4582,12 @@
         repo = "https://github.com/purescript/purescript-refs.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   remotedata =
   {
@@ -2565,6 +4595,12 @@
       {
         repo = "https://github.com/krisajenkins/purescript-remotedata.git";
         rev = "v5.0.0";
+      };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
       };
   };
   resource =
@@ -2574,6 +4610,12 @@
         repo = "https://github.com/joneshf/purescript-resource.git";
         rev = "v2.0.1";
       };
+    info =
+      {
+        version = "2.0.1";
+        dependencies = [
+        ];
+      };
   };
   resourcet =
   {
@@ -2581,6 +4623,12 @@
       {
         repo = "https://github.com/robertdp/purescript-resourcet.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   result =
@@ -2590,6 +4638,12 @@
         repo = "https://github.com/ad-si/purescript-result.git";
         rev = "v1.0.3";
       };
+    info =
+      {
+        version = "1.0.3";
+        dependencies = [
+        ];
+      };
   };
   return =
   {
@@ -2597,6 +4651,12 @@
       {
         repo = "https://github.com/ursi/purescript-return.git";
         rev = "v0.2.0";
+      };
+    info =
+      {
+        version = "0.2.0";
+        dependencies = [
+        ];
       };
   };
   ring-modules =
@@ -2606,6 +4666,12 @@
         repo = "https://github.com/f-o-a-m/purescript-ring-modules.git";
         rev = "v5.0.1";
       };
+    info =
+      {
+        version = "5.0.1";
+        dependencies = [
+        ];
+      };
   };
   rito =
   {
@@ -2613,6 +4679,12 @@
       {
         repo = "https://github.com/mikesol/purescript-rito.git";
         rev = "v0.3.2";
+      };
+    info =
+      {
+        version = "0.3.2";
+        dependencies = [
+        ];
       };
   };
   routing =
@@ -2622,6 +4694,12 @@
         repo = "https://github.com/purescript-contrib/purescript-routing.git";
         rev = "v11.0.0";
       };
+    info =
+      {
+        version = "11.0.0";
+        dependencies = [
+        ];
+      };
   };
   routing-duplex =
   {
@@ -2629,6 +4707,12 @@
       {
         repo = "https://github.com/natefaubion/purescript-routing-duplex.git";
         rev = "v0.7.0";
+      };
+    info =
+      {
+        version = "0.7.0";
+        dependencies = [
+        ];
       };
   };
   run =
@@ -2638,6 +4722,12 @@
         repo = "https://github.com/natefaubion/purescript-run.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   safe-coerce =
   {
@@ -2645,6 +4735,12 @@
       {
         repo = "https://github.com/purescript/purescript-safe-coerce.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
       };
   };
   safely =
@@ -2654,6 +4750,12 @@
         repo = "https://github.com/paf31/purescript-safely.git";
         rev = "v4.0.1";
       };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+        ];
+      };
   };
   school-of-music =
   {
@@ -2661,6 +4763,12 @@
       {
         repo = "https://github.com/newlandsvalley/purescript-school-of-music.git";
         rev = "v1.3.0";
+      };
+    info =
+      {
+        version = "1.3.0";
+        dependencies = [
+        ];
       };
   };
   selection-foldable =
@@ -2670,6 +4778,12 @@
         repo = "https://github.com/jamieyung/purescript-selection-foldable.git";
         rev = "v0.2.0";
       };
+    info =
+      {
+        version = "0.2.0";
+        dependencies = [
+        ];
+      };
   };
   semirings =
   {
@@ -2677,6 +4791,12 @@
       {
         repo = "https://github.com/purescript/purescript-semirings.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   signal =
@@ -2686,6 +4806,12 @@
         repo = "https://github.com/bodil/purescript-signal.git";
         rev = "v13.0.0";
       };
+    info =
+      {
+        version = "13.0.0";
+        dependencies = [
+        ];
+      };
   };
   simple-emitter =
   {
@@ -2693,6 +4819,12 @@
       {
         repo = "https://github.com/oreshinya/purescript-simple-emitter.git";
         rev = "v3.0.1";
+      };
+    info =
+      {
+        version = "3.0.1";
+        dependencies = [
+        ];
       };
   };
   simple-i18n =
@@ -2702,6 +4834,12 @@
         repo = "https://github.com/oreshinya/purescript-simple-i18n.git";
         rev = "v2.0.1";
       };
+    info =
+      {
+        version = "2.0.1";
+        dependencies = [
+        ];
+      };
   };
   simple-json =
   {
@@ -2709,6 +4847,12 @@
       {
         repo = "https://github.com/justinwoo/purescript-simple-json.git";
         rev = "v9.0.0";
+      };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
       };
   };
   simple-jwt =
@@ -2718,6 +4862,12 @@
         repo = "https://github.com/oreshinya/purescript-simple-jwt.git";
         rev = "v4.0.1";
       };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+        ];
+      };
   };
   simple-ulid =
   {
@@ -2725,6 +4875,12 @@
       {
         repo = "https://github.com/oreshinya/purescript-simple-ulid.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   sized-matrices =
@@ -2734,6 +4890,12 @@
         repo = "https://github.com/csicar/purescript-sized-matrices.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   sized-vectors =
   {
@@ -2741,6 +4903,12 @@
       {
         repo = "https://github.com/bodil/purescript-sized-vectors.git";
         rev = "v5.0.2";
+      };
+    info =
+      {
+        version = "5.0.2";
+        dependencies = [
+        ];
       };
   };
   slug =
@@ -2750,6 +4918,12 @@
         repo = "https://github.com/thomashoneyman/purescript-slug.git";
         rev = "v3.0.8";
       };
+    info =
+      {
+        version = "3.0.8";
+        dependencies = [
+        ];
+      };
   };
   small-ffi =
   {
@@ -2757,6 +4931,17 @@
       {
         repo = "https://github.com/lfarroco/purescript-small-ffi.git";
         rev = "v4.0.1";
+      };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+          "arrays"
+          "console"
+          "effect"
+          "prelude"
+          "quickcheck"
+        ];
       };
   };
   soundfonts =
@@ -2766,6 +4951,12 @@
         repo = "https://github.com/newlandsvalley/purescript-soundfonts.git";
         rev = "v4.1.0";
       };
+    info =
+      {
+        version = "4.1.0";
+        dependencies = [
+        ];
+      };
   };
   sparse-matrices =
   {
@@ -2773,6 +4964,12 @@
       {
         repo = "https://github.com/Ebmtranceboy/purescript-sparse-matrices.git";
         rev = "v1.2.1";
+      };
+    info =
+      {
+        version = "1.2.1";
+        dependencies = [
+        ];
       };
   };
   sparse-polynomials =
@@ -2782,6 +4979,12 @@
         repo = "https://github.com/Ebmtranceboy/purescript-sparse-polynomials.git";
         rev = "v1.0.5";
       };
+    info =
+      {
+        version = "1.0.5";
+        dependencies = [
+        ];
+      };
   };
   spec =
   {
@@ -2789,6 +4992,12 @@
       {
         repo = "https://github.com/purescript-spec/purescript-spec.git";
         rev = "v7.3.0";
+      };
+    info =
+      {
+        version = "7.3.0";
+        dependencies = [
+        ];
       };
   };
   spec-discovery =
@@ -2798,6 +5007,12 @@
         repo = "https://github.com/purescript-spec/purescript-spec-discovery.git";
         rev = "v8.0.1";
       };
+    info =
+      {
+        version = "8.0.1";
+        dependencies = [
+        ];
+      };
   };
   spec-quickcheck =
   {
@@ -2805,6 +5020,12 @@
       {
         repo = "https://github.com/purescript-spec/purescript-spec-quickcheck.git";
         rev = "v5.0.0";
+      };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
       };
   };
   splitmix =
@@ -2814,6 +5035,12 @@
         repo = "https://github.com/the-dr-lazy/purescript-splitmix.git";
         rev = "v2.1.0";
       };
+    info =
+      {
+        version = "2.1.0";
+        dependencies = [
+        ];
+      };
   };
   ssrs =
   {
@@ -2821,6 +5048,12 @@
       {
         repo = "https://github.com/PureFunctor/purescript-ssrs.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   st =
@@ -2830,6 +5063,12 @@
         repo = "https://github.com/purescript/purescript-st.git";
         rev = "v6.2.0";
       };
+    info =
+      {
+        version = "6.2.0";
+        dependencies = [
+        ];
+      };
   };
   statistics =
   {
@@ -2837,6 +5076,12 @@
       {
         repo = "https://github.com/jacereda/purescript-statistics.git";
         rev = "v0.3.2";
+      };
+    info =
+      {
+        version = "0.3.2";
+        dependencies = [
+        ];
       };
   };
   strictlypositiveint =
@@ -2846,6 +5091,12 @@
         repo = "https://github.com/jamieyung/purescript-strictlypositiveint.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   string-parsers =
   {
@@ -2853,6 +5104,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-string-parsers.git";
         rev = "v8.0.0";
+      };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
       };
   };
   strings =
@@ -2862,6 +5119,12 @@
         repo = "https://github.com/purescript/purescript-strings.git";
         rev = "v6.0.1";
       };
+    info =
+      {
+        version = "6.0.1";
+        dependencies = [
+        ];
+      };
   };
   strings-extra =
   {
@@ -2869,6 +5132,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-strings-extra.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   stringutils =
@@ -2878,6 +5147,12 @@
         repo = "https://github.com/menelaos/purescript-stringutils.git";
         rev = "v0.0.12";
       };
+    info =
+      {
+        version = "0.0.12";
+        dependencies = [
+        ];
+      };
   };
   substitute =
   {
@@ -2885,6 +5160,12 @@
       {
         repo = "https://github.com/ursi/purescript-substitute.git";
         rev = "v0.2.3";
+      };
+    info =
+      {
+        version = "0.2.3";
+        dependencies = [
+        ];
       };
   };
   sunde =
@@ -2894,6 +5175,12 @@
         repo = "https://github.com/justinwoo/purescript-sunde.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   supply =
   {
@@ -2901,6 +5188,12 @@
       {
         repo = "https://github.com/ajnsit/purescript-supply.git";
         rev = "v0.2.0";
+      };
+    info =
+      {
+        version = "0.2.0";
+        dependencies = [
+        ];
       };
   };
   svg-parser =
@@ -2910,6 +5203,12 @@
         repo = "https://github.com/rnons/purescript-svg-parser.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   systemd-journald =
   {
@@ -2917,6 +5216,14 @@
       {
         repo = "https://github.com/paluh/purescript-systemd-journald.git";
         rev = "v0.3.0";
+      };
+    info =
+      {
+        version = "0.3.0";
+        dependencies = [
+          "effect"
+          "prelude"
+        ];
       };
   };
   tagged =
@@ -2926,6 +5233,12 @@
         repo = "https://github.com/LiamGoodacre/purescript-tagged.git";
         rev = "v4.0.2";
       };
+    info =
+      {
+        version = "4.0.2";
+        dependencies = [
+        ];
+      };
   };
   tailrec =
   {
@@ -2933,6 +5246,12 @@
       {
         repo = "https://github.com/purescript/purescript-tailrec.git";
         rev = "v6.1.0";
+      };
+    info =
+      {
+        version = "6.1.0";
+        dependencies = [
+        ];
       };
   };
   tecton =
@@ -2942,6 +5261,12 @@
         repo = "https://github.com/nsaunders/purescript-tecton.git";
         rev = "v0.1.6";
       };
+    info =
+      {
+        version = "0.1.6";
+        dependencies = [
+        ];
+      };
   };
   tecton-halogen =
   {
@@ -2949,6 +5274,17 @@
       {
         repo = "https://github.com/nsaunders/purescript-tecton-halogen.git";
         rev = "v0.1.3";
+      };
+    info =
+      {
+        version = "0.1.3";
+        dependencies = [
+          "halogen"
+          "lists"
+          "prelude"
+          "tecton"
+          "transformers"
+        ];
       };
   };
   test-unit =
@@ -2958,6 +5294,12 @@
         repo = "https://github.com/bodil/purescript-test-unit.git";
         rev = "v17.0.0";
       };
+    info =
+      {
+        version = "17.0.0";
+        dependencies = [
+        ];
+      };
   };
   thermite =
   {
@@ -2965,6 +5307,17 @@
       {
         repo = "https://github.com/paf31/purescript-thermite.git";
         rev = "v6.3.1";
+      };
+    info =
+      {
+        version = "6.3.1";
+        dependencies = [
+          "aff"
+          "coroutines"
+          "freet"
+          "profunctor-lenses"
+          "react"
+        ];
       };
   };
   thermite-dom =
@@ -2974,6 +5327,16 @@
         repo = "https://github.com/athanclark/purescript-thermite-dom.git";
         rev = "v0.3.1";
       };
+    info =
+      {
+        version = "0.3.1";
+        dependencies = [
+          "thermite"
+          "react"
+          "react-dom"
+          "web-html"
+        ];
+      };
   };
   these =
   {
@@ -2981,6 +5344,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-these.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   toppokki =
@@ -2990,6 +5359,12 @@
         repo = "https://github.com/justinwoo/purescript-toppokki.git";
         rev = "v4.0.0";
       };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
+      };
   };
   transformers =
   {
@@ -2997,6 +5372,12 @@
       {
         repo = "https://github.com/purescript/purescript-transformers.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   tree-rose =
@@ -3006,6 +5387,12 @@
         repo = "https://github.com/jordanmartinez/purescript-tree-rose.git";
         rev = "v4.0.2";
       };
+    info =
+      {
+        version = "4.0.2";
+        dependencies = [
+        ];
+      };
   };
   tuples =
   {
@@ -3013,6 +5400,12 @@
       {
         repo = "https://github.com/purescript/purescript-tuples.git";
         rev = "v7.0.0";
+      };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
       };
   };
   two-or-more =
@@ -3022,6 +5415,12 @@
         repo = "https://github.com/i-am-the-slime/purescript-two-or-more.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   type-equality =
   {
@@ -3029,6 +5428,12 @@
       {
         repo = "https://github.com/purescript/purescript-type-equality.git";
         rev = "v4.0.1";
+      };
+    info =
+      {
+        version = "4.0.1";
+        dependencies = [
+        ];
       };
   };
   typedenv =
@@ -3038,6 +5443,12 @@
         repo = "https://github.com/nsaunders/purescript-typedenv.git";
         rev = "v2.0.1";
       };
+    info =
+      {
+        version = "2.0.1";
+        dependencies = [
+        ];
+      };
   };
   typelevel =
   {
@@ -3045,6 +5456,12 @@
       {
         repo = "https://github.com/bodil/purescript-typelevel.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   typelevel-lists =
@@ -3054,6 +5471,12 @@
         repo = "https://github.com/PureFunctor/purescript-typelevel-lists.git";
         rev = "v2.1.0";
       };
+    info =
+      {
+        version = "2.1.0";
+        dependencies = [
+        ];
+      };
   };
   typelevel-peano =
   {
@@ -3061,6 +5484,12 @@
       {
         repo = "https://github.com/csicar/purescript-typelevel-peano.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   typelevel-prelude =
@@ -3070,6 +5499,12 @@
         repo = "https://github.com/purescript/purescript-typelevel-prelude.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   typelevel-rows =
   {
@@ -3077,6 +5512,12 @@
       {
         repo = "https://github.com/jordanmartinez/purescript-typelevel-rows.git";
         rev = "v0.1.0";
+      };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+        ];
       };
   };
   uint =
@@ -3086,6 +5527,12 @@
         repo = "https://github.com/purescript-contrib/purescript-uint.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   ulid =
   {
@@ -3093,6 +5540,12 @@
       {
         repo = "https://github.com/maxdeviant/purescript-ulid.git";
         rev = "v3.0.1";
+      };
+    info =
+      {
+        version = "3.0.1";
+        dependencies = [
+        ];
       };
   };
   uncurried-transformers =
@@ -3102,6 +5555,12 @@
         repo = "https://github.com/PureFunctor/purescript-uncurried-transformers.git";
         rev = "v1.1.0";
       };
+    info =
+      {
+        version = "1.1.0";
+        dependencies = [
+        ];
+      };
   };
   undefined =
   {
@@ -3109,6 +5568,12 @@
       {
         repo = "https://github.com/bklaric/purescript-undefined.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
       };
   };
   undefined-is-not-a-problem =
@@ -3118,6 +5583,12 @@
         repo = "https://github.com/paluh/purescript-undefined-is-not-a-problem.git";
         rev = "v1.1.0";
       };
+    info =
+      {
+        version = "1.1.0";
+        dependencies = [
+        ];
+      };
   };
   unfoldable =
   {
@@ -3125,6 +5596,12 @@
       {
         repo = "https://github.com/purescript/purescript-unfoldable.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   unicode =
@@ -3134,6 +5611,12 @@
         repo = "https://github.com/purescript-contrib/purescript-unicode.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   unlift =
   {
@@ -3141,6 +5624,12 @@
       {
         repo = "https://github.com/tweag/purescript-unlift.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   unordered-collections =
@@ -3150,6 +5639,12 @@
         repo = "https://github.com/fehrenbach/purescript-unordered-collections.git";
         rev = "v3.0.1";
       };
+    info =
+      {
+        version = "3.0.1";
+        dependencies = [
+        ];
+      };
   };
   unsafe-coerce =
   {
@@ -3157,6 +5652,12 @@
       {
         repo = "https://github.com/purescript/purescript-unsafe-coerce.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   unsafe-reference =
@@ -3166,6 +5667,12 @@
         repo = "https://github.com/purescript-contrib/purescript-unsafe-reference.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   untagged-to-tagged =
   {
@@ -3173,6 +5680,12 @@
       {
         repo = "https://github.com/sigma-andex/purescript-untagged-to-tagged.git";
         rev = "v0.1.4";
+      };
+    info =
+      {
+        version = "0.1.4";
+        dependencies = [
+        ];
       };
   };
   untagged-union =
@@ -3182,6 +5695,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-untagged-union.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   uri =
   {
@@ -3189,6 +5708,12 @@
       {
         repo = "https://github.com/purescript-contrib/purescript-uri.git";
         rev = "v9.0.0";
+      };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
       };
   };
   uuid =
@@ -3198,6 +5723,12 @@
         repo = "https://github.com/megamaddu/purescript-uuid.git";
         rev = "v9.0.0";
       };
+    info =
+      {
+        version = "9.0.0";
+        dependencies = [
+        ];
+      };
   };
   uuidv4 =
   {
@@ -3205,6 +5736,12 @@
       {
         repo = "https://github.com/garyb/purescript-uuidv4.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
   validation =
@@ -3214,6 +5751,12 @@
         repo = "https://github.com/purescript/purescript-validation.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   variant =
   {
@@ -3221,6 +5764,12 @@
       {
         repo = "https://github.com/natefaubion/purescript-variant.git";
         rev = "v8.0.0";
+      };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
       };
   };
   vectorfield =
@@ -3230,6 +5779,12 @@
         repo = "https://github.com/csicar/purescript-vectorfield.git";
         rev = "v1.0.1";
       };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
+      };
   };
   vectors =
   {
@@ -3237,6 +5792,12 @@
       {
         repo = "https://github.com/thought2/purescript-vectors.git";
         rev = "v2.1.0";
+      };
+    info =
+      {
+        version = "2.1.0";
+        dependencies = [
+        ];
       };
   };
   versions =
@@ -3246,6 +5807,12 @@
         repo = "https://github.com/hdgarrood/purescript-versions.git";
         rev = "v7.0.0";
       };
+    info =
+      {
+        version = "7.0.0";
+        dependencies = [
+        ];
+      };
   };
   visx =
   {
@@ -3253,6 +5820,12 @@
       {
         repo = "https://github.com/i-am-the-slime/purescript-visx.git";
         rev = "v0.0.2";
+      };
+    info =
+      {
+        version = "0.0.2";
+        dependencies = [
+        ];
       };
   };
   web-clipboard =
@@ -3262,6 +5835,12 @@
         repo = "https://github.com/purescript-web/purescript-web-clipboard.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   web-cssom =
   {
@@ -3269,6 +5848,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-cssom.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
       };
   };
   web-cssom-view =
@@ -3278,6 +5863,12 @@
         repo = "https://github.com/purescript-web/purescript-web-cssom-view.git";
         rev = "v0.1.0";
       };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+        ];
+      };
   };
   web-dom =
   {
@@ -3285,6 +5876,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-dom.git";
         rev = "v6.0.0";
+      };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
       };
   };
   web-dom-parser =
@@ -3294,6 +5891,12 @@
         repo = "https://github.com/purescript-web/purescript-web-dom-parser.git";
         rev = "v8.0.0";
       };
+    info =
+      {
+        version = "8.0.0";
+        dependencies = [
+        ];
+      };
   };
   web-dom-xpath =
   {
@@ -3301,6 +5904,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-dom-xpath.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   web-encoding =
@@ -3310,6 +5919,12 @@
         repo = "https://github.com/purescript-web/purescript-web-encoding.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   web-events =
   {
@@ -3317,6 +5932,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-events.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   web-fetch =
@@ -3326,6 +5947,12 @@
         repo = "https://github.com/purescript-web/purescript-web-fetch.git";
         rev = "v3.0.0";
       };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
+      };
   };
   web-file =
   {
@@ -3333,6 +5960,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-file.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   web-geometry =
@@ -3342,6 +5975,12 @@
         repo = "https://github.com/purescript-web/purescript-web-geometry.git";
         rev = "v0.1.0";
       };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+        ];
+      };
   };
   web-html =
   {
@@ -3349,6 +5988,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-html.git";
         rev = "v4.1.0";
+      };
+    info =
+      {
+        version = "4.1.0";
+        dependencies = [
+        ];
       };
   };
   web-pointerevents =
@@ -3358,6 +6003,17 @@
         repo = "https://github.com/purescript-web/purescript-web-pointerevents.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+          "prelude"
+          "effect"
+          "maybe"
+          "web-dom"
+          "web-uievents"
+        ];
+      };
   };
   web-proletarian =
   {
@@ -3365,6 +6021,14 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-web-proletarian.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+          "effect"
+          "prelude"
+        ];
       };
   };
   web-promise =
@@ -3374,6 +6038,12 @@
         repo = "https://github.com/purescript-web/purescript-web-promise.git";
         rev = "v3.1.0";
       };
+    info =
+      {
+        version = "3.1.0";
+        dependencies = [
+        ];
+      };
   };
   web-resize-observer =
   {
@@ -3381,6 +6051,12 @@
       {
         repo = "https://github.com/nsaunders/purescript-web-resize-observer.git";
         rev = "v2.0.0";
+      };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
       };
   };
   web-router =
@@ -3390,6 +6066,12 @@
         repo = "https://github.com/robertdp/purescript-web-router.git";
         rev = "v1.0.0";
       };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
+      };
   };
   web-socket =
   {
@@ -3397,6 +6079,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-socket.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   web-storage =
@@ -3406,6 +6094,12 @@
         repo = "https://github.com/purescript-web/purescript-web-storage.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   web-streams =
   {
@@ -3413,6 +6107,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-streams.git";
         rev = "v3.0.0";
+      };
+    info =
+      {
+        version = "3.0.0";
+        dependencies = [
+        ];
       };
   };
   web-touchevents =
@@ -3422,6 +6122,12 @@
         repo = "https://github.com/purescript-web/purescript-web-touchevents.git";
         rev = "v4.0.0";
       };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
+      };
   };
   web-uievents =
   {
@@ -3429,6 +6135,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-uievents.git";
         rev = "v4.0.0";
+      };
+    info =
+      {
+        version = "4.0.0";
+        dependencies = [
+        ];
       };
   };
   web-url =
@@ -3438,6 +6150,12 @@
         repo = "https://github.com/mjepronk/purescript-web-url.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
+      };
   };
   web-workers =
   {
@@ -3445,6 +6163,12 @@
       {
         repo = "https://github.com/purescript-web/purescript-web-workers.git";
         rev = "v1.1.0";
+      };
+    info =
+      {
+        version = "1.1.0";
+        dependencies = [
+        ];
       };
   };
   web-xhr =
@@ -3454,6 +6178,12 @@
         repo = "https://github.com/purescript-web/purescript-web-xhr.git";
         rev = "v5.0.0";
       };
+    info =
+      {
+        version = "5.0.0";
+        dependencies = [
+        ];
+      };
   };
   webextension-polyfill =
   {
@@ -3461,6 +6191,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-webextension-polyfill.git";
         rev = "v0.1.0";
+      };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+        ];
       };
   };
   which =
@@ -3470,6 +6206,12 @@
         repo = "https://github.com/maxdeviant/purescript-which.git";
         rev = "v2.0.0";
       };
+    info =
+      {
+        version = "2.0.0";
+        dependencies = [
+        ];
+      };
   };
   yoga-fetch =
   {
@@ -3477,6 +6219,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-yoga-fetch.git";
         rev = "v1.0.1";
+      };
+    info =
+      {
+        version = "1.0.1";
+        dependencies = [
+        ];
       };
   };
   yoga-json =
@@ -3486,6 +6234,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-yoga-json.git";
         rev = "v5.1.0";
       };
+    info =
+      {
+        version = "5.1.0";
+        dependencies = [
+        ];
+      };
   };
   yoga-om =
   {
@@ -3493,6 +6247,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-yoga-om.git";
         rev = "v0.1.0";
+      };
+    info =
+      {
+        version = "0.1.0";
+        dependencies = [
+        ];
       };
   };
   yoga-postgres =
@@ -3502,6 +6262,12 @@
         repo = "https://github.com/rowtype-yoga/purescript-yoga-postgres.git";
         rev = "v6.0.0";
       };
+    info =
+      {
+        version = "6.0.0";
+        dependencies = [
+        ];
+      };
   };
   yoga-tree =
   {
@@ -3509,6 +6275,12 @@
       {
         repo = "https://github.com/rowtype-yoga/purescript-yoga-tree.git";
         rev = "v1.0.0";
+      };
+    info =
+      {
+        version = "1.0.0";
+        dependencies = [
+        ];
       };
   };
 }
